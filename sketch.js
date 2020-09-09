@@ -25,13 +25,11 @@ if (hasCollided(bullet,wall))
      {
        wall.shapeColor=color("red");
      }
+     
      if (damage=10)
      {
        wall.shapeColor=color("white");
      }
-
-
-
 
      if (damage<10)
        {
